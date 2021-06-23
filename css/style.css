@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(244, 38%, 16%);
+    color: hsla(0, 0%, 100%, 0.6);
+    width: 1080px;
+    max-height: 446px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.main-text-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    max-height: 446px;
+    font-family: 'Lexend Deca';
+    margin: 45px 90px 30px 60px;
+}
+
+img {
+    max-width: 50vw;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.main-text-block h1 {
+    font-family: 'Inter';
+    color: white;
+}
+
+.main-text-block h1  span {
+    color: hsl(277, 64%, 61%);
+}
+
+.main-text-block p, li {
+    font-size: 15px;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+.stats-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.stat-heading {
+    color: hsla(0, 0%, 100%, 1);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.stat-footer {
+    text-transform: uppercase;
+}
+
+ul {
+    padding-left: 0px;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+
+#image-overlay { /* need to work on responsiveness */
+    position: absolute;
+    z-index: 999;
+    height: 446px;
+    width: 540px;
+    max-width: 50vw;
+    max-height: 50vw;
+    margin: 0;
+    padding: 0;
+    background-color: hsla(277, 64%, 61%, 0.3);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
